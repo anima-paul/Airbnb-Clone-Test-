@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airbnb-Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <img class="logo" src="logo.png" alt="" srcset="">
+        <ul class="nav-links">
+            <li><a class="nav-home" href="#">Home</a></li>
+            <li><a class="nav-experiences" href="#">Experiences</a></li>
+            <li><a class="nav-services" href="#">Services</a></li>
+            <li><a class="nav-contact" href="#contact">Contact</a></li>
+          </ul>
+          <div class="profile">
+            <img class="photo" src="https://static.vecteezy.com/system/resources/previews/022/249/958/large_2x/love-of-radha-krishna-in-colorful-portrait-generative-ai-photo.jpeg" alt="dp" srcset="">
+            <h5>ANIMA PAUL</h5>
+          </div>
+          <div class="hamburger">
+            <img class="hamburger-logo" src="hamburger.png" alt="Menu">
+          </div>
+    </nav>
+
+              <!-- html for login page -->
+              <div class="modal-overlay" id="loginModal">
+                <div class="login-box">
+                  <span class="close-login">×</span>
+                  <div class="login-container">
+                    <img class="photo" src="https://static.vecteezy.com/system/resources/previews/022/249/958/large_2x/love-of-radha-krishna-in-colorful-portrait-generative-ai-photo.jpeg" alt="dp" srcset="">
+                    <h5>ANIMA PAUL</h5>
+
+                    <h2 class="welcome">Welcome back!</h2>
+                
+                    <form class="login-form">
+                      <input type="email" placeholder="Enter your email" required>
+                      <div class="password-field">
+                        <input type="password" placeholder="Enter your password" required>
+                      </div>
+                      <button class="login-btn" type="submit">Log in to Airbnb</button>
+                    </form>
+                
+                    <div class="links">
+                      <p>Not a member? <a href="#">Sign up</a></p>
+                      <a href="#" class="forgot">Forgot your password?</a>
+                    </div>
+                
+                    <p class="terms">
+                      By continuing, you agree to Airbnb's <a href="#">terms</a><br>
+                      and acknowledge you've read our <a href="#">privacy policy</a>
+                    </p>
+
+                  </div>
+                </div>
+              </div>
+              
+
+    <div class="search-box">
+        <div class="search-inputs">
+        <input type="text" placeholder="search destinations" class="search">
+        <h5 class="checkin">Check in:</h5><input type="date" name="checkin" id="" class="date">
+        <h5 class="checkout">Check out:</h5><input type="date" name="checkout" id="" class="date">
+        <input type="button" value="Add guests" class="search-btn">
+        <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+          </svg>
+    </div>
+    </div>
+    <div class="flexcontainer">
+    <div class="flexbox">
+    <div class="box">
+        <img class="img" src="https://a0.muscache.com/im/pictures/hosting/Hosting-1228135290452209669/original/70c8870b-4f37-49cb-acb7-a84ef2091fcc.jpeg?im_w=720" alt="img">
+        <h3>Shimla, India</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        </p>
+        <div class="box-price">
+        <h4>₹19,400 </h4>
+        <p>night</p>
+    </div>
+    <div class="book-btn">
+        <button class="booked-btn">Book Now</button>
+    </div>
+    </div>
+    <div class="box">
+        <img class="img" src="https://storage.googleapis.com/cloudaio/images/hotel/c9b386c2-3327-404d-902c-16c52e64de5b/40476/auabr-cabanas-4744-hor-clsc.jpg" alt="img">
+        <h3>Maldives, Srilanka</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        </p>
+        <div class="box-price">
+            <h4>₹25,000 </h4>
+            <p>night</p>
+        </div>
+        <div class="book-btn">
+            <button class="booked-btn">Book Now</button>
+        </div>
+    </div>
+    <div class="box">
+        <img class="img" src="https://images.pexels.com/photos/338504/pexels-photo-338504.jpeg?auto=compress&cs=tinysrgb&w=600" alt="img">
+        <h3>Goa, India</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        </p>
+        <div class="box-price">
+            <h4>₹10,400 </h4>
+            <p>night</p>
+        </div>
+        <div class="book-btn">
+            <button class="booked-btn">Book Now</button>
+        </div>
+    </div>
+    <div class="box">
+        <img class="img" src="https://images.pexels.com/photos/1802255/pexels-photo-1802255.jpeg?auto=compress&cs=tinysrgb&w=600" alt="img">
+        <h3>Sarjha, Dubai</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        </p>
+        <div class="box-price">
+            <h4>₹11,900 </h4>
+            <p>night</p>
+        </div>
+        <div class="book-btn">
+            <button class="booked-btn">Book Now</button>
+        </div>
+    </div>
+    <div class="box">
+        <img class="img" src="https://images.pexels.com/photos/1320686/pexels-photo-1320686.jpeg?auto=compress&cs=tinysrgb&w=600" alt="img">
+        <h3>Andaman, India</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        </p>
+        <div class="box-price">
+            <h4>₹9,800 </h4>
+            <p>night</p>
+        </div>
+        <div class="book-btn">
+            <button class="booked-btn">Book Now</button>
+        </div>
+    </div>
+    <div class="box">
+        <img class="img" src="https://images.pexels.com/photos/594077/pexels-photo-594077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="img">
+        <h3>Hawai</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        </p>
+        <div class="box-price">
+            <h4>₹12,400 </h4>
+            <p>night</p>
+        </div>
+        <div class="book-btn">
+            <button class="booked-btn">Book Now</button>
+        </div>
+    </div>
+</div>
+<div class="flexbox">
+    <div class="box">
+        <img class="img" src="https://images.pexels.com/photos/1268855/pexels-photo-1268855.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="img">
+        <h3>Maldives, Srilanka</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        </p>
+        <div class="box-price">
+            <h4>₹38,400 </h4>
+            <p>night</p>
+        </div>
+        <div class="book-btn">
+            <button class="booked-btn">Book Now</button>
+        </div>
+    </div>
+    <div class="box">
+        <img class="img" src="https://images.pexels.com/photos/2631613/pexels-photo-2631613.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="img">
+        <h3>Bali, Thailand</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        </p>
+        <div class="box-price">
+            <h4>₹21,400 </h4>
+            <p>night</p>
+        </div>
+        <div class="book-btn">
+            <button class="booked-btn">Book Now</button>
+        </div>
+    </div>
+    <div class="box">
+        <img class="img" src="https://images.pexels.com/photos/261181/pexels-photo-261181.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="img">
+        <h3>Florida</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        </p>
+        <div class="box-price">
+            <h4>₹39,400 </h4>
+            <p>night</p>
+        </div>
+        <div class="book-btn">
+            <button class="booked-btn">Book Now</button>
+        </div>
+    </div>
+    <div class="box">
+        <img class="img" src="https://images.pexels.com/photos/2506988/pexels-photo-2506988.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="img">
+        <h3>Bankok, Thailand</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        </p>
+        <div class="box-price">
+            <h4>₹38,400 </h4>
+            <p>night</p>
+        </div>
+        <div class="book-btn">
+            <button class="booked-btn">Book Now</button>
+        </div>
+    </div>
+    <div class="box">
+        <img class="img" src="https://images.pexels.com/photos/31592162/pexels-photo-31592162/free-photo-of-elegant-hotel-buffet-in-jakarta-dining-area.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="img">
+        <h3>Polo Tower, India</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        </p>
+        <div class="box-price">
+            <h4>₹16,400 </h4>
+            <p>night</p>
+        </div>
+        <div class="book-btn">
+            <button class="booked-btn">Book Now</button>
+        </div>
+    </div>
+    <div class="box">
+        <img class="img" src="https://images.squarespace-cdn.com/content/v1/5bb1b6cdf4755a7725f60a37/1541972853472-K8RG5K27AH2FF8667NLL/ke17ZwdGBToddI8pDm48kDHPSfPanjkWqhH6pl6g5ph7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0mwONMR1ELp49Lyc52iWr5dNb1QJw9casjKdtTg1_-y4jz4ptJBmI9gQmbjSQnNGng/Sheraton+Maui+Hawaii+Pool+and+Bar" alt="img">
+        <h3>Goa, India</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        </p>
+        <div class="box-price">
+            <h4>₹17,000 </h4>
+            <p>night</p>
+        </div>
+        <div class="book-btn">
+            <button class="booked-btn">Book Now</button>
+        </div>
+    </div>
+</div>
+<div class="flexbox">
+    <div class="box">
+        <img class="img" src="https://cache.marriott.com/marriottassets/marriott/KULDT/kuldt-guestroom-0065-hor-clsc.jpg?interpolation=progressive-bilinear&" alt="img">
+        <h3>Hydrabad, India</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        </p>
+        <div class="box-price">
+            <h4>₹9,500 </h4>
+            <p>night</p>
+        </div>
+        <div class="book-btn">
+            <button class="booked-btn">Book Now</button>
+        </div>
+    </div>
+    <div class="box">
+        <img class="img" src="http://www.bestwesternplusmeridian.com/Content/images/Queen-Room.jpg" alt="img">
+        <h3>Delhi, India</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        </p>
+        <div class="box-price">
+            <h4>₹18,500 </h4>
+            <p>night</p>
+        </div>
+        <div class="book-btn">
+            <button class="booked-btn">Book Now</button>
+        </div>
+    </div>
+    <div class="box">
+        <img class="img" src="https://media.cntraveler.com/photos/5a7cb1d3ccc5d25b62a7a1a1/master/pass/Betsy-cr-courtesy.jpg" alt="img">
+        <h3>Bali, Thailand</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        </p>
+        <div class="box-price">
+            <h4>₹14,400 </h4>
+            <p>night</p>
+        </div>
+        <div class="book-btn">
+            <button class="booked-btn">Book Now</button>
+        </div>
+    </div>
+    <div class="box">
+        <img class="img" src="https://images.pexels.com/photos/338504/pexels-photo-338504.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="img">
+        <h3>Goa, India</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        </p>
+        <div class="box-price">
+            <h4>₹45,400 </h4>
+            <p>night</p>
+        </div>
+        <div class="book-btn">
+            <button class="booked-btn">Book Now</button>
+        </div>
+    </div>
+    <div class="box">
+        <img class="img" src="https://wallpaperaccess.com/full/2690549.jpg" alt="img">
+        <h3>Rajasthan, India</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        </p>
+        <div class="box-price">
+            <h4>₹80,400 </h4>
+            <p>night</p>
+        </div>
+        <div class="book-btn">
+            <button class="booked-btn">Book Now</button>
+        </div>
+    </div>
+    <div class="box">
+        <img class="img" src="https://tse2.mm.bing.net/th?id=OIP.mHCdYvgpz5_kcyWAUjQY-QHaEo&pid=Api&P=0&h=180" alt="img">
+        <h3>London, UAE</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        </p>
+        <div class="box-price">
+            <h4>₹98,400 </h4>
+            <p>night</p>
+        </div>
+        <div class="book-btn">
+            <button class="booked-btn">Book Now</button>
+        </div>
+    </div>
+</div>
+<div class="flexbox">
+    <div class="box">
+        <img class="img" src="https://www.gannett-cdn.com/-mm-/05b227ad5b8ad4e9dcb53af4f31d7fbdb7fa901b/c=0-64-2119-1259/local/-/media/USATODAY/USATODAY/2014/08/13/1407953244000-177513283.jpg?width=2119&height=1195&fit=crop&format=pjpg&auto=webp" alt="img">
+        <h3>Los Angalas, USA</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        </p>
+        <div class="box-price">
+            <h4>₹85,500 </h4>
+            <p>night</p>
+        </div>
+        <div class="book-btn">
+            <button class="booked-btn">Book Now</button>
+        </div>
+    </div>
+    <div class="box">
+        <img class="img" src="https://www.hotels.club/wp-content/uploads/2016/10/hotel-header.jpg" alt="img">
+        <h3>Hong Kong, China </h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        </p>
+        <div class="box-price">
+            <h4>₹52,400 </h4>
+            <p>night</p>
+        </div>
+        <div class="book-btn">
+            <button class="booked-btn">Book Now</button>
+        </div>
+    </div>
+    <div class="box">
+        <img class="img" src="https://tse4.mm.bing.net/th?id=OIP.BS_1tt3Q652tkxNcQDkYbAHaFj&pid=Api&P=0&h=180" alt="img">
+        <h3>Tokyo, Japan</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        </p>
+        <div class="box-price">
+            <h4>₹1,00,980 </h4>
+            <p>night</p>
+        </div>
+        <div class="book-btn">
+            <button class="booked-btn">Book Now</button>
+        </div>
+    </div>
+    <div class="box">
+        <img class="img" src="https://photos.mandarinoriental.com/is/image/MandarinOriental/dubai-suite-skyline-view-bedroom" alt="img">
+        <h3>Las Vegas, USA</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        </p>
+        <div class="box-price">
+            <h4>₹29,400 </h4>
+            <p>night</p>
+        </div>
+        <div class="book-btn">
+            <button class="booked-btn">Book Now</button>
+        </div>
+    </div>
+    <div class="box">
+        <img class="img" src="https://www.wallpaperflare.com/static/914/15/690/maldives-tropical-beach-resort-wallpaper.jpg" alt="img">
+        <h3>Italy, Europe</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        </p>
+        <div class="box-price">
+            <h4>₹79,500 </h4>
+            <p>night</p>
+        </div>
+        <div class="book-btn">
+            <button class="booked-btn">Book Now</button>
+        </div>
+    </div>
+    <div class="box">
+        <img class="img" src="https://images.squarespace-cdn.com/content/v1/5bb1b6cdf4755a7725f60a37/1541972853472-K8RG5K27AH2FF8667NLL/ke17ZwdGBToddI8pDm48kDHPSfPanjkWqhH6pl6g5ph7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0mwONMR1ELp49Lyc52iWr5dNb1QJw9casjKdtTg1_-y4jz4ptJBmI9gQmbjSQnNGng/Sheraton+Maui+Hawaii+Pool+and+Bar" alt="img">
+        <h3>Goa, India</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        </p>
+        <div class="box-price">
+            <h4>₹37,400 </h4>
+            <p>night</p>
+        </div>
+        <div class="book-btn">
+            <button class="booked-btn">Book Now</button>
+        </div>
+    </div>
+</div>
+</div>
+<div class="explore-btn">
+    <button class="explore-button">Explore More</button>
+</div>
+<!-- Contact section -->
+<section class="contact" id="contact">
+    <h2 class="text-centre">Contact Us</h2>
+    <p class="text-email">paulanima792@gmail.com</p>
+    <div class="form">
+        <form action="send_email.php" method="POST" id="contactForm"></form>
+        <input type="text" name="name" id="name" placeholder="Enter Your Name">
+        <input type="text" name="phone" id="phone" placeholder="Enter Your Number">
+        <input type="text" name="email" id="email" placeholder="Enter Your Email">
+        <textarea class="form-input" name="text" id="text" cols="30" rows="10" placeholder="Ellaborate your concern"></textarea>
+        <button type="submit" class="btn-submit"><Strong>Submit</Strong></button>
+    </form>
+    </div>
+</section>
+<footer class="background">
+    <p class="text-footer">Copyright &copf; 2025 officialairbnb.com - All right reserved by Anima Paul</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
